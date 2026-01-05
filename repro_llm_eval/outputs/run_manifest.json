@@ -1,0 +1,36 @@
+{
+  "runId": "repro-llm-eval-run",
+  "artifactVersion": "rev7",
+  "generatedAtUtc": "2025-12-29T01:06:34Z",
+  "platform": {
+    "os": "posix",
+    "python": "3.12.3"
+  },
+  "outputs": [
+    {
+      "path": "repro_llm_eval/outputs/abstention_subset.csv",
+      "bytes": 1105,
+      "sha256": "d1427aa0e5213c554a22f1d02f24f127d06f86595c78f822969b3657e945a879"
+    },
+    {
+      "path": "repro_llm_eval/outputs/claims_baseline.csv",
+      "bytes": 6965,
+      "sha256": "8c6b3379a50162057dafab97cc154ef67e9bbdedc0f64e75382227c11051fabb"
+    },
+    {
+      "path": "repro_llm_eval/outputs/claims_proposed.csv",
+      "bytes": 6965,
+      "sha256": "f33592a8add36c965ec8445949201e87efc8e42afbb4c635aec97e04488cc26f"
+    },
+    {
+      "path": "repro_llm_eval/outputs/table6_metrics.json",
+      "bytes": 670,
+      "sha256": "7f3d5607321c9d15fda5470b561e9970363098c9e628457af88720e0083097a3"
+    },
+    {
+      "path": "repro_llm_eval/outputs/table6_summary.csv",
+      "bytes": 450,
+      "sha256": "2f922df0218077949d2fc199416b5ef6d556049b78468cc87ea5aed7ec9e1a03"
+    }
+  ]
+}

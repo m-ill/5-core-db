@@ -1,0 +1,4 @@
+Metric,Baseline (chunk-RAG),Proposed (data-card bounded),Notes
+Citation coverage,"0.68 [0.62, 0.74] (143/210 claims)","0.96 [0.93, 0.98] (202/210 claims)",Claim-level; higher is better
+Hallucination rate,"0.15 [0.11, 0.21] (32/210 claims)","0.02 [0.01, 0.05] (4/210 claims)",Claim-level; lower is better
+Abstention correctness,"0.74 [0.55, 0.87] (20/27 prompts)","0.93 [0.77, 0.98] (25/27 prompts)",Evidence-insufficient subset; higher is better
