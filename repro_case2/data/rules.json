@@ -1,0 +1,86 @@
+{
+  "caseId": "toy-case2",
+  "rules": [
+    {
+      "ruleId": "R1",
+      "target": "ScaffoldBay",
+      "requiredFacts": ["horizontalSpacing"],
+      "requirement": "<= 2.0 m",
+      "severity": "Medium",
+      "representativeValue": "spacing = 2.1–2.5 m"
+    },
+    {
+      "ruleId": "R2",
+      "target": "WorkingPlatform",
+      "requiredFacts": ["platformWidth"],
+      "requirement": ">= 0.40 m",
+      "severity": "Medium",
+      "representativeValue": "min width = 0.50 m"
+    },
+    {
+      "ruleId": "R3",
+      "target": "FloorSegment",
+      "requiredFacts": ["anchorCount"],
+      "requirement": ">= 2 / floor",
+      "severity": "High",
+      "representativeValue": "anchorCount = 1 / floor"
+    },
+    {
+      "ruleId": "R4",
+      "target": "ScaffoldBay",
+      "requiredFacts": ["clearanceToStructure"],
+      "requirement": ">= 0.10 m",
+      "severity": "Low",
+      "representativeValue": "min clearance = 0.15 m"
+    },
+    {
+      "ruleId": "R5",
+      "target": "ScaffoldBay×Wall",
+      "requiredFacts": ["adjacentFireWall", "fireRating", "extraTie"],
+      "requirement": "extraTie=true when adjacent to 2h wall",
+      "severity": "High",
+      "representativeValue": "extraTie = false (adjacent to 2h fire wall)"
+    },
+    {
+      "ruleId": "R6",
+      "target": "WorkingPlatform",
+      "requiredFacts": ["hasGuardrail"],
+      "requirement": "guardrail required",
+      "severity": "High",
+      "representativeValue": "guardrail = present"
+    },
+    {
+      "ruleId": "R7",
+      "target": "WorkingPlatform",
+      "requiredFacts": ["hasToeBoard"],
+      "requirement": "toe board required",
+      "severity": "Medium",
+      "representativeValue": "toe board = present"
+    },
+    {
+      "ruleId": "R8",
+      "target": "ScaffoldBay",
+      "requiredFacts": ["hasDiagonalBrace"],
+      "requirement": "bracing required",
+      "severity": "Medium",
+      "representativeValue": "diagonal brace = present"
+    },
+    {
+      "ruleId": "R9",
+      "target": "VerticalPost",
+      "requiredFacts": ["hasBasePlate"],
+      "requirement": "base plate required",
+      "severity": "Medium",
+      "representativeValue": "base plate = present"
+    },
+    {
+      "ruleId": "R10",
+      "target": "AccessBay",
+      "requiredFacts": ["hasAccessLadder"],
+      "requirement": "safe access required",
+      "severity": "Medium",
+      "representativeValue": "access ladder = present"
+    }
+  ]
+}
+

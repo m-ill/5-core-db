@@ -1,0 +1,6 @@
+runId=repro-case1-run
+generatedAtUtc=2025-12-29T01:06:28Z
+mutatedAssertions=200
+rejectedTransactions=200
+constraint=isDerivedFrom(minCardinality=1)
+action=REJECT_TRANSACTION

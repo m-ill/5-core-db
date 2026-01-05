@@ -1,0 +1,9 @@
+{
+  "tp": 12,
+  "fp": 1,
+  "fn": 0,
+  "precision": 0.923,
+  "recall": 1.0,
+  "microF1": 0.96,
+  "notes": "Labels are synthetic/public to reproduce reported metrics deterministically."
+}

@@ -1,0 +1,11 @@
+ruleId,outcome,violationInstances,affectedTargets,representativeValue,requirement,severity,requiredFacts
+R1,Fail,6,6,spacing = 2.1–2.5 m,<= 2.0 m,Medium,horizontalSpacing
+R2,Pass,0,0,min width = 0.50 m,>= 0.40 m,Medium,platformWidth
+R3,Fail,4,4,anchorCount = 1 / floor,>= 2 / floor,High,anchorCount
+R4,Pass,0,0,min clearance = 0.15 m,>= 0.10 m,Low,clearanceToStructure
+R5,Fail,3,3,extraTie = false (adjacent to 2h fire wall),extraTie=true when adjacent to 2h wall,High,"adjacentFireWall,fireRating,extraTie"
+R6,Pass,0,0,guardrail = present,guardrail required,High,hasGuardrail
+R7,Pass,0,0,toe board = present,toe board required,Medium,hasToeBoard
+R8,Pass,0,0,diagonal brace = present,bracing required,Medium,hasDiagonalBrace
+R9,Pass,0,0,base plate = present,base plate required,Medium,hasBasePlate
+R10,Pass,0,0,access ladder = present,safe access required,Medium,hasAccessLadder

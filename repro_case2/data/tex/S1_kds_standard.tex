@@ -1,0 +1,27 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=22mm]{geometry}
+\pagestyle{plain}
+
+\begin{document}
+
+\newcount\p
+\p=1
+\loop
+  \ifnum\p<17
+    \section*{Public KDS Standard (S1) --- Page \the\p}
+    This is a public standard PDF for artifact reproduction.\\
+    (Filler page; no clauses referenced.)
+    \vfill
+    \newpage
+    \advance\p by 1
+\repeat
+
+\section*{Public KDS Standard (S1) --- Page 17}
+\noindent
+\fbox{\parbox{0.95\linewidth}{
+\textbf{Clause KDS-C1 (public example).}\\
+Rule R1: \texttt{horizontalSpacing(b) <= 2.0 m}.\\
+This box exists so that locators such as \texttt{S1:p17:clause=KDS-C1} point to a concrete, public document location.
+}}
+
+\end{document}

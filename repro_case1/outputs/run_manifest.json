@@ -1,0 +1,36 @@
+{
+  "runId": "repro-case1-run",
+  "artifactVersion": "rev7",
+  "generatedAtUtc": "2025-12-29T01:06:28Z",
+  "platform": {
+    "os": "posix",
+    "python": "3.12.3"
+  },
+  "outputs": [
+    {
+      "path": "repro_case1/outputs/case1_metrics.json",
+      "bytes": 797,
+      "sha256": "f42d9d00ab9c6c2c23b9322eb9e6411a24cc6b21cd0c1502ba3f9220325b8536"
+    },
+    {
+      "path": "repro_case1/outputs/locator_audit.csv",
+      "bytes": 1295,
+      "sha256": "dfeb8a2d1a8ab27c0961a47f82c4580dc959e5c585244a162b7ff5ea662fc824"
+    },
+    {
+      "path": "repro_case1/outputs/rejection_reasons.csv",
+      "bytes": 3165,
+      "sha256": "6afdfe32213395f02d381f73dbfdf9815cb6a3cee078aee189da7f07ab3f1cbd"
+    },
+    {
+      "path": "repro_case1/outputs/rejection_test_log.txt",
+      "bytes": 174,
+      "sha256": "5d4b9f4e547287a12d8095661e00be1d75ef6fead1a84348333faccfce09ab45"
+    },
+    {
+      "path": "repro_case1/outputs/table2_panelA.csv",
+      "bytes": 948,
+      "sha256": "761de1faf601d1fb7af25be2059c19dafeac18fefce1b8e552a0f53e00176cb9"
+    }
+  ]
+}

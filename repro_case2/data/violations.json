@@ -1,0 +1,122 @@
+{
+  "coordRef": "public-grid-2400x3600",
+  "violations": [
+    {
+      "violationId": "V1",
+      "ruleId": "R1",
+      "target": "Bay-L4-02",
+      "actual": "spacing = 2.5 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "1180,3320,460,280", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V2",
+      "ruleId": "R3",
+      "target": "Floor-L3",
+      "actual": "anchors = 1",
+      "requirement": ">= 2",
+      "e_actual": { "fileId": "D1", "page": "p01", "bbox": "820,1450,520,260", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p09", "clauseId": "INT-C2" }
+    },
+    {
+      "violationId": "V3",
+      "ruleId": "R3",
+      "target": "Floor-L4",
+      "actual": "anchors = 1",
+      "requirement": ">= 2",
+      "e_actual": { "fileId": "D1", "page": "p01", "bbox": "820,1120,520,260", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p09", "clauseId": "INT-C2" }
+    },
+    {
+      "violationId": "V4",
+      "ruleId": "R3",
+      "target": "Floor-L5",
+      "actual": "anchors = 1",
+      "requirement": ">= 2",
+      "e_actual": { "fileId": "D1", "page": "p01", "bbox": "820,790,520,260", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p09", "clauseId": "INT-C2" }
+    },
+    {
+      "violationId": "V5",
+      "ruleId": "R3",
+      "target": "Floor-L6",
+      "actual": "anchors = 1",
+      "requirement": ">= 2",
+      "e_actual": { "fileId": "D1", "page": "p01", "bbox": "820,460,520,260", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p09", "clauseId": "INT-C2" }
+    },
+    {
+      "violationId": "V6",
+      "ruleId": "R5",
+      "target": "Bay-L4-02",
+      "actual": "extraTie = false (fire wall = 2h)",
+      "requirement": "extraTie = true under condition",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "1560,2980,640,300", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p12", "clauseId": "INT-C4" }
+    },
+    {
+      "violationId": "V7",
+      "ruleId": "R1",
+      "target": "Bay-L4-01",
+      "actual": "spacing = 2.4 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "200,3320,460,280", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V8",
+      "ruleId": "R1",
+      "target": "Bay-L5-03",
+      "actual": "spacing = 2.3 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "200,2940,460,240", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V9",
+      "ruleId": "R1",
+      "target": "Bay-L6-02",
+      "actual": "spacing = 2.2 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "200,2600,460,240", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V10",
+      "ruleId": "R1",
+      "target": "Bay-L3-01",
+      "actual": "spacing = 2.1 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "200,2260,460,240", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V11",
+      "ruleId": "R1",
+      "target": "Bay-L2-02",
+      "actual": "spacing = 2.4 m",
+      "requirement": "<= 2.0 m",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "200,1920,460,240", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S1", "page": "p17", "clauseId": "KDS-C1" }
+    },
+    {
+      "violationId": "V12",
+      "ruleId": "R5",
+      "target": "Bay-L5-03",
+      "actual": "extraTie = false (fire wall = 2h)",
+      "requirement": "extraTie = true under condition",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "1560,2640,640,300", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p12", "clauseId": "INT-C4" }
+    },
+    {
+      "violationId": "V13",
+      "ruleId": "R5",
+      "target": "Bay-L6-02",
+      "actual": "extraTie = false (fire wall = 2h)",
+      "requirement": "extraTie = true under condition",
+      "e_actual": { "fileId": "D1", "page": "p02", "bbox": "1560,2300,640,300", "coordRef": "public-grid-2400x3600" },
+      "e_clause": { "fileId": "S2", "page": "p12", "clauseId": "INT-C4" }
+    }
+  ]
+}

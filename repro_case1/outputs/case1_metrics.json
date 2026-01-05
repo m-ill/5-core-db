@@ -1,0 +1,35 @@
+{
+  "generatedAtUtc": "2025-12-29T01:06:28Z",
+  "case1": {
+    "candidatesTotal": 1364,
+    "accepted": 1284,
+    "rejected": 80,
+    "rejectionBreakdown": {
+      "locator_missing": 31,
+      "metadata_missing": 14,
+      "anchor_unclear": 35
+    },
+    "acceptanceRate": 0.9413489736070382,
+    "evidenceCoverage": 1.0,
+    "locatorAudit": {
+      "n": 60,
+      "success": 57,
+      "fail": 3,
+      "failBreakdown": {
+        "coordRef_transform_missing": 2,
+        "clauseId_misalignment": 1
+      }
+    },
+    "rejectionTest": {
+      "mutatedAssertions": 200,
+      "rejectedTransactions": 200,
+      "rejectedRate": 1.0
+    }
+  },
+  "checks": {
+    "acceptanceRateMatches": false,
+    "rejectionTotalsMatch": true,
+    "auditTotalsMatch": true,
+    "rejectionTestAllRejected": true
+  }
+}

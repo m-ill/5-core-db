@@ -1,0 +1,50 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[margin=22mm]{geometry}
+\pagestyle{plain}
+
+\begin{document}
+
+% Pages 1--8 (filler)
+\newcount\p
+\p=1
+\loop
+  \ifnum\p<9
+    \section*{Public Company Standard (S2) --- Page \the\p}
+    Public company standard PDF for artifact reproduction.\\
+    (Filler page; no clauses referenced.)
+    \vfill
+    \newpage
+    \advance\p by 1
+\repeat
+
+% Page 9: INT-C2
+\section*{Public Company Standard (S2) --- Page 9}
+\noindent
+\fbox{\parbox{0.95\linewidth}{
+\textbf{Clause INT-C2 (public example).}\\
+Rule R3: \texttt{anchorCount(f) >= 2 per floor}.\\
+Locator example: \texttt{S2:p09:clause=INT-C2}.
+}}
+\newpage
+
+% Pages 10--11 (filler)
+\p=10
+\loop
+  \ifnum\p<12
+    \section*{Public Company Standard (S2) --- Page \the\p}
+    (Filler page.)
+    \vfill
+    \newpage
+    \advance\p by 1
+\repeat
+
+% Page 12: INT-C4
+\section*{Public Company Standard (S2) --- Page 12}
+\noindent
+\fbox{\parbox{0.95\linewidth}{
+\textbf{Clause INT-C4 (public example).}\\
+Rule R5: if adjacent to 2h fire wall then \texttt{extraTie(b)=true}.\\
+Locator example: \texttt{S2:p12:clause=INT-C4}.
+}}
+
+\end{document}

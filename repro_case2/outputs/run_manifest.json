@@ -1,0 +1,48 @@
+{
+  "runId": "repro-case2-run",
+  "artifactVersion": "rev7",
+  "platform": {
+    "os": "posix",
+    "python": "3.12.3"
+  },
+  "tools": {
+    "tectonic": "/mnt/c/Users/mill/Downloads/DB_paper/tools/tectonic/tectonic"
+  },
+  "sources": [
+    {
+      "fileId": "D1",
+      "type": "PublicDrawingPDF",
+      "version": "v1",
+      "path": "repro_case2/build/D1_drawing.pdf",
+      "sha256": "61c542062b53af901d6fedb5355a08db017ed0b236c5640783b8c3e34848dcca"
+    },
+    {
+      "fileId": "S1",
+      "type": "PublicKdsStandardPDF",
+      "version": "v1",
+      "path": "repro_case2/build/S1_kds_standard.pdf",
+      "sha256": "85da6929be320e78b3ecdabbcd86c2c8c8456fe4a2a58d653a4e3a11b2bc7045"
+    },
+    {
+      "fileId": "S2",
+      "type": "PublicCompanyStandardPDF",
+      "version": "v1",
+      "path": "repro_case2/build/S2_company_standard.pdf",
+      "sha256": "1181eb44e8dd222276b91321f18f469c65f4f557b7828a443edbc8855304f561"
+    }
+  ],
+  "outputs": {
+    "violationInstancesCsv": {
+      "path": "repro_case2/outputs/violation_instances.csv",
+      "sha256": "211f693dac724127f63fc63b0858489dd436a89aa9dfa4be74cb855f8809ba53"
+    },
+    "table4SummaryCsv": {
+      "path": "repro_case2/outputs/table4_summary.csv",
+      "sha256": "26c6d72692b1d6e48a68da27e6c11834cc59ee4c12acbb5390e0503aca316e77"
+    },
+    "case2EvalMetrics": {
+      "path": "repro_case2/outputs/case2_eval_metrics.json",
+      "sha256": "02dd52b643c3f8838a12d8e8654554ebd78adc767ee25c5f6c844ae7576864c9"
+    }
+  }
+}

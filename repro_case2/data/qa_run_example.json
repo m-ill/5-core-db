@@ -1,0 +1,47 @@
+{
+  "runId": "toy-case2-qa-run",
+  "mode": "deterministic",
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "modelRevision": "2024-07-18",
+    "temperature": 0.0,
+    "maxTokens": 256
+  },
+  "systemPrompt": "You are an evidence-grounded assistant. Use only retrieved facts and cite locators. If evidence is missing, abstain and request more evidence.",
+  "queries": [
+    {
+      "queryId": "Q1",
+      "userPrompt": "R1 위반의 실제값/기준값 근거를 보여줘.",
+      "retrieval": {
+        "graph": {
+          "violations": ["V1"],
+          "facts": {
+            "target": "Bay-L4-02",
+            "actual": "spacing = 2.5 m",
+            "requirement": "<= 2.0 m"
+          }
+        },
+        "evidence": {
+          "E_actual": "D1:p02:bbox(1180,3320,460,280):coordRef=public-grid-2400x3600",
+          "E_clause": "S1:p17:clause=KDS-C1"
+        }
+      },
+      "answer": "Bay-L4-02의 가로재 간격은 도면(D1) p02의 bbox(1180,3320,460,280)에서 2.5 m로 추출되었고, KDS-C1 기준(<= 2.0 m)을 초과하여 위반으로 판정되었다."
+    },
+    {
+      "queryId": "Q2",
+      "userPrompt": "이 비계 도면은 최종 승인 가능한가?",
+      "retrieval": {
+        "graph": {
+          "violations": ["V1", "V2", "V6"],
+          "severity": {
+            "high": ["R3", "R5"],
+            "medium": ["R1"]
+          }
+        }
+      },
+      "answer": "현재 결과(규칙 범위 R1–R10)에 따르면 R3 및 R5는 High severity로 분류되어 수정 후 재검토가 필요하다. 따라서 현 상태로는 최종 승인 전 보완이 권고된다."
+    }
+  ]
+}

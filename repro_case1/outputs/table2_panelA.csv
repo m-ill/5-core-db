@@ -1,0 +1,12 @@
+Panel,Metric,Value,Notes
+A,5-core coverage,5/5 types,Drawings; Calculation/Analysis; 3D/BIM; Documents/Reports; Field/Physical
+A,Source files,6 files,At least 1 file per 5-core type
+A,Focus object(s),8 targets,Entity-resolution targets shared across sources
+A,Physical objects in KG,42 PhysicalObject instances,Integrated across all 5-core sources
+A,Candidate assertions (pre-ingestion),1364,Extractor output before constraint validation
+A,Assertions in KG,1284,Assertions with mandatory Evidence links
+A,Ingestion acceptance rate,94.135% (1284/1364),Candidates passing mandatory Evidence constraint
+A,Rejected candidates,80 (5.9%),locator missing 31; metadata missing 14; anchor unclear 35
+A,Locator validity audit,57/60 (95.0%),Manual traceback audit (see §4.3.2)
+A,Ingestion rejection tests,200 mutated assertions,Assertions missing isDerivedFrom (see §4.3.3)
+A,Rejected transactions,200/200 (100%),Expected outcome of enforcement
